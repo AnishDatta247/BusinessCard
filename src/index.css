@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22242c;
+    color: #DCDCDC;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    height: 868px;
+}
+
+.box {
+    position: absolute;
+    width: 317px;
+    height: 780px;
+    top: 44px;
+    bottom: 44px;
+    left: 30px;
+    background-color: #1b1a21;
+    border-radius: 10px;
+}
+
+.my-image {
+    width: 317px;
+    border-radius: 10px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.intro>.name {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.intro>.post {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #d58344;
+    width: 50%;
+    text-align: center;
+}
+
+.intro>.website {
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.social-media {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-box {
+    height: 35px;
+    width: 40%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.social-box img {
+    width: 12.8px;
+    margin-left: 10px;
+}
+
+.social-box:nth-child(2) {
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-box p {
+    color: #1b1a21;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#insta p {
+    color: whitesmoke;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 22px 40px;
+}
+.about-container h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.about-me>p {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: justify;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #161718;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer{
+    display: flex;
+    margin: 13px;
+    justify-content: space-between;
+}
+.footer img{
+    margin: 0px 10px;
+    border-radius: 10px;
+}
